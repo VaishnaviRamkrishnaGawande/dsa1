@@ -1,0 +1,19 @@
+package com.demo.Stack;
+
+public class MyStackArr {
+	private int [] arr;
+	private int top;
+	public MyStackArr() {
+		super();
+		arr=new int[10];
+		top=-1;
+	}
+	public MyStackArr(int size) {
+		super();
+		arr=new int[size];
+		top=-1;
+	}
+	
+	
+
+}

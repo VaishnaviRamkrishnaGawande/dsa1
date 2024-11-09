@@ -1,0 +1,14 @@
+package com.demo.test;
+
+public class Sum {
+public static void main(String[] args) {
+	int arr[]= {10,2,45,12};
+	System.out.println(arr.toString());
+	int sum=0;
+	for(int i=0;i<arr.length;i++)
+	{
+		sum=sum+arr[i];
+	}
+//	System.out.println(arr.);
+}
+}

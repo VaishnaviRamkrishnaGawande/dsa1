@@ -1,0 +1,28 @@
+package com.demo.test;
+
+public class array{
+	public static void main(String[] args) {
+		int arr[]= {10,120,14,120};
+		int key=120;
+		boolean status=sequentailSerach(arr,key);
+		if(status)
+		{
+			System.out.println("Element found");
+		}
+		else
+			System.out.println("Not found "+key);
+	}
+
+	private static boolean sequentailSerach(int[] arr, int key) {
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]==key)
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	
+	}

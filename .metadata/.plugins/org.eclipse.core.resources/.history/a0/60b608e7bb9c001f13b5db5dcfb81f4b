@@ -1,0 +1,13 @@
+package com.demo.test;
+
+import com.demo.Stack.MyStackArrChar;
+
+public class TestStackArrChar {
+
+	public static void main(String[] args) {
+		MyStackArrChar lst=new MyStackArrChar();
+		lst.push('V');
+		lst.push('A');
+	}
+
+}

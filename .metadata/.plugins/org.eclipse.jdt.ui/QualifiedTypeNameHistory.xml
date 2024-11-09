@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.classfile.components.ClassPrinter.Node"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.demo.CircularDoublyLinkList.CirecularDLL"/>
+    <fullyQualifiedTypeName name="com.demo.Stack.MyStackArr"/>
+    <fullyQualifiedTypeName name="com.demo.Stack.MyStackArrString"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.demo.Stack.MyListStack"/>
+    <fullyQualifiedTypeName name="com.demo.StackList.StackList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="com.demo.Queue.MyQueue"/>
+    <fullyQualifiedTypeName name="com.demo.Stack.MyStackArrChar"/>
+    <fullyQualifiedTypeName name="com.demo.Queue.MyQueueArr"/>
+    <fullyQualifiedTypeName name="com.demo.Queue.MyCircularQueue"/>
+    <fullyQualifiedTypeName name="com.demoQueue.MyCircularQueue"/>
+</qualifiedTypeNameHistroy>

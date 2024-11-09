@@ -1,0 +1,32 @@
+package com.demo.dll;
+
+public class dll {
+     class Node{
+    	 int data;
+    	 Node next,prev;
+		public Node(int data) {
+			super();
+			this.data = data;
+			this.next=null;
+			this.prev=null;
+		}
+     }
+     public dll() {
+    	 head=null;
+     }
+     public void AddNode(int val) {
+    	 Node newnode=new Node(val);
+    		 if(head==null) {
+    			 head=newnode;
+    		 }else {
+    			 Node temp=head;
+    			 while(temp!=null) {
+    				 temp=temp.data;
+    			 }
+    			 temp.next=newnode;
+    			 newnode.prev=temp;
+    	 }
+     }
+     }
+    	 
+     }

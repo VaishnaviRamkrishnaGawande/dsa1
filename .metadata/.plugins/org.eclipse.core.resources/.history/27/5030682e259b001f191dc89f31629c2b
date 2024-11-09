@@ -1,0 +1,73 @@
+
+public class SinglyLinkedList {
+	class Node
+	{
+		int data;
+		Node next;
+		public Node(int data) {
+			super();
+			this.data = data;
+			this.next=null;
+		}
+		Node head;
+		public Node() {
+			super();
+			head=null;
+		}
+		
+		
+	
+	public void addNod(int val)
+	{
+		Node newnode=new Node(val);
+		if(head==null)
+		{
+			head=newnode;
+		}
+		else
+		{
+			Node temp=head;
+			while(temp.next!=null)
+			{
+				temp=temp.next;
+			}
+			temp.next=newnode;
+		}
+	}
+	public void addByPos(int val,int pos)
+	{
+		if(head==null && pos>1)
+		{
+			System.out.println("List is empty");
+		}
+		else
+		{
+			Node newnode=new Node(val);
+			if(pos==1)
+			{
+				newnode.next=head;
+				head=newnode;
+			}
+			else
+			{
+				Node temp=head;
+				for(int i=1;temp!=null && i<=pos-2;i++)
+				{
+					temp=temp.next;
+					
+				}
+				if(temp!=null)
+				{
+					newnode.next=temp.next;
+					temp.next=newnode;
+				}
+				else
+				{
+					System.out.println("Beyoun limit");
+				}
+			}
+		}
+		
+	}
+	}
+}

@@ -1,0 +1,25 @@
+package com.demo.test;
+
+import com.demo.Stack.MyStackArrString;
+
+public class TestStackArrString {
+
+	public static void main(String[] args) {
+		MyStackArrString lst=new MyStackArrString();
+		String s="Hello my name is ayush";
+		
+		for(int i=0;i<s.length();i++)
+		{
+			if(!lst.isFull())
+			{
+				lst.push(s.charAt(i));
+			}
+		}
+		while(!lst.isEmpty())
+		{
+			System.out.println(lst.pop());
+		}
+	}
+	
+
+}

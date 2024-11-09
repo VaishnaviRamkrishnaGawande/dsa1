@@ -1,0 +1,13 @@
+package com.demo.dlltest;
+
+import com.demo.dll.dll;
+
+public class TestDll {
+	private void mian() {
+		dll lst=new dll();
+		lst.AddNode(10);
+		lst.AddNode(20);
+		lst.display();
+	}
+
+}

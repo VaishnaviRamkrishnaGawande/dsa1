@@ -1,0 +1,21 @@
+package com.demo.Queue;
+
+public class MyCircularQueue {
+
+	int arr[];
+	int rear,front;
+	public MyCircularQueue() {
+		super();
+		arr=new int[10];
+		front=-1;
+		rear=-1;
+	}
+	
+	public MyCircularQueue(int size) {
+		super();
+		arr=new int[size];
+		front=-1;
+		rear=-1;
+	}
+	
+}

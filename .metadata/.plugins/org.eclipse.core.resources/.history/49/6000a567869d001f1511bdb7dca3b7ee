@@ -1,0 +1,23 @@
+package com.demoQueue;
+
+public class MyCircularQueue {
+     Employee [] arr;
+     int front;
+     int rear;
+     
+	public MyCircularQueue() {
+		super();
+		arr=new Employee[10];
+		front=-1;
+		rear=-1;
+	}
+
+	public MyCircularQueue(int[] arr, int front, int rear) {
+		super();
+		this.arr = arr;
+		this.front = front;
+		this.rear = rear;
+	}
+     
+     
+}

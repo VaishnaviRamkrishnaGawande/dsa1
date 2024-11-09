@@ -1,0 +1,38 @@
+package com.demo.linkedlist;
+
+import com.demo.beans.Employee;
+
+public class EmployeeSLL {
+	class node{
+		Employee data;
+		node next;
+		public node(Employee data) {
+			super();
+			this.data = data;
+			this.next=null;
+			}
+	}
+	node head;
+	public EmployeeSLL() {
+		head=null;
+	}
+	public void addNOde(Employee obj)
+	{
+		node newnode=new node(obj);
+		if(head==null)
+		{
+			head=newnode;
+		}
+		else
+		{
+			node temp=head;
+			while(temp.next!=null)
+			{
+				temp=temp.next;
+			}
+			temp.next=newnode;
+		}
+	}
+	
+
+}

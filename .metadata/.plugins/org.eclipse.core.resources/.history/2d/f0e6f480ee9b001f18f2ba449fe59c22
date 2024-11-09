@@ -1,0 +1,53 @@
+package com.demo.CircularLinkList;
+
+public class CircularSLL {
+	Node head,tail;
+	class Node{
+		int data;
+		Node next;
+		public Node(int data) {
+			super();
+			this.data = data;
+			this.next=null;
+		}
+	}
+	public CircularSLL() {
+		this.head=null;
+		this.tail=null;
+	}
+	public void addNode(int val)
+	{
+		Node newnode=new Node(val);
+		if(head==null)
+		{
+			head=newnode;
+			tail=newnode;
+			tail.next=head;
+		}
+		else
+		{
+			tail.next=newnode;
+			tail=newnode;
+			tail.next=head;
+		}
+	}
+	public void display()
+	{
+		if(head==null)
+		{
+			System.out.println("List is empty");
+		}
+		else
+		{
+			Node temp=head;
+			while(temp.next!=head)
+			{
+				System.out.println(temp.data);
+				temp=temp.next;
+			}
+//			System.out.println(temp.data);
+		}
+	}
+	
+
+}

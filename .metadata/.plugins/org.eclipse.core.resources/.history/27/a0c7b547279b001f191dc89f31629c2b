@@ -1,0 +1,10 @@
+package com.demo.test;
+import com.demo.*;
+public class TestSLL {
+	public static void main(String[] args) {
+		SinglyLinkedList lst=new SinglyLinkedList;
+		
+		
+	}
+
+}

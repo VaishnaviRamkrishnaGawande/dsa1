@@ -1,0 +1,11 @@
+package com.demo.test;
+
+import com.demo.linkedlist.DoublyLinkedList;
+
+public class TestDLL {
+	DoublyLinkedList lst=new DoublyLinkedList();
+	lst.addNode(2);
+	
+	
+
+}

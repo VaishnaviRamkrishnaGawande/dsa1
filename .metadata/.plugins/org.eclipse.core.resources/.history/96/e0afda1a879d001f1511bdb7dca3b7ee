@@ -1,0 +1,46 @@
+package com.demoQueue;
+
+public class MyCircularQueue {
+     Employee [] arr;
+     int front;
+     int rear;
+     
+	public MyCircularQueue() {
+		super();
+		arr=new Employee[10];
+		front=-1;
+		rear=-1;
+	}
+
+	public MyCircularQueue(int size) {
+		super();
+		arr=new Employee[size];
+		front=-1;
+		rear=-1;
+	}
+	public boolean isFull() {
+		if(front==0 && rear==arr.length-1);
+		return true;
+	}
+public boolean isEmpty() {
+		return front==-1;
+	}
+public void Enqueuee(int val)
+{
+	if(isFull()) {
+		System.out.println("Queue is full");
+	}else {
+		arr[rear]=val;
+		rear++;
+	}
+}
+public int Dequeuee() {
+	if(isEmpty()) {
+		System.out.println("Queue is empty");
+	}else {
+		Employee n=arr[front];
+		front++;
+	}
+}
+     
+}
